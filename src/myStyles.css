@@ -1,0 +1,49 @@
+body{
+    background-color: #ADD8E6;
+}
+
+.App{
+    text-align: center;
+}
+
+h1, h3{
+    color:black;
+}
+
+hr{
+    border: 2px solid black;
+}
+
+#playButton{
+    background-color: blue;
+    font-size: 50px;
+}
+
+#restartButton{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#helpButton{
+    font-size: 30px;
+}
+
+#mainImage{
+    width: 300px;
+    height: 300px;
+}
+
+#myContainer{
+    background-color: white;
+}
+
+#tableHeading{
+    text-align: center;
+    padding-right: 100px;
+}
+

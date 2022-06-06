@@ -1,0 +1,22 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#myTable{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img{
+    height: 130px;
+    width: 100px;
+}
+
+.myCards{
+    text-align: center;
+}
+
+#c1{
+    visibility: hidden;
+}
