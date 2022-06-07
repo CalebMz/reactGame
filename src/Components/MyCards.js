@@ -14,7 +14,8 @@ export default class MyCards extends Component{
         this.handleClick = this.handleClick.bind(this);
     }
 
-    //when clicked on the card is meant to display cardName and bombsNearby
+    //when clicked on the card is meant to display cardName and bombsNearby however when ever it is clicked
+    //it only displays the first cards details.
     handleClick() {
         document.getElementById("c1").style.visibility = "visible";
         
