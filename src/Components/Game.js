@@ -5,23 +5,24 @@ import MyCards from "./MyCards";
 //component is what displays the information in the arrays as a card element on the page.
 //Below the cards is the restart button which when clicked reloads the page.
 
-const cards1 = [{id: "1", cardName: "Safe", bombsNearby:"1 Bomb nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"}, 
-{id: "2",   cardName: "Bomb", bombsNearby:"1 Bomb nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "3",   cardName: "Safe", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "4",   cardName: "Safe", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "5",   cardName: "Safe", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "6",   cardName: "Winner", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "7",   cardName: "Bomb", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "8",   cardName: "Bomb", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"}];
+const cards1 = [{id: "c1", imgID:'i1', cardName: "Bomb", bombsNearby:"1 Bomb nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"}, 
+{id: "c2", imgID:'i2',  cardName: "Safe", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c3", imgID:'i3',   cardName: "Safe", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c4", imgID:'i4',  cardName: "Bomb", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c5", imgID:'i5',  cardName: "Bomb", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c6", imgID:'i6',  cardName: "Winner", bombsNearby:"3 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c7", imgID:'i7',  cardName: "Safe", bombsNearby:"1 Bomb nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c8", imgID:'i8',  cardName: "Safe", bombsNearby:"1 Bomb nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"}];
 
-const cards2 = [{id: "9", cardName: "Safe", bombsNearby:"1 Bomb nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"}, 
-{id: "10",   cardName: "Safe", bombsNearby:"1 Bomb nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "11",   cardName: "Bomb", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "12",   cardName: "Bomb", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "13",   cardName: "Safe", bombsNearby:"1 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "14",   cardName: "Safe", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "15",   cardName: "Bomb", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
-{id: "16",   cardName: "Safe", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"}];
+const cards2 = [{id: "c9", imgID:'i9', cardName: "Safe", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"}, 
+{id: "c10", imgID:'i10',  cardName: "Bomb", bombsNearby:"1 Bomb nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c11", imgID:'i11',  cardName: "Safe", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c12", imgID:'i12',  cardName: "Safe", bombsNearby:"3 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c13", imgID:'i13',  cardName: "Bomb", bombsNearby:"2 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c14", imgID:'i14',  cardName: "Safe", bombsNearby:"3 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c15", imgID:'i15',  cardName: "Bomb", bombsNearby:"0 Bombs nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"},
+{id: "c16", imgID:'i16',  cardName: "Safe", bombsNearby:"1 Bomb nearby", cardImage: "https://i.pinimg.com/originals/9b/57/35/9b5735855008bb6f95f6e66c4f2f0fa6.jpg"}];
+
 export default class Game extends Component{
 
     
@@ -31,7 +32,7 @@ export default class Game extends Component{
             <div>
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
                 crossorigin="anonymous"/>
-                <MyCards cards={cards1} onClick={this.handleClick}/>
+                <MyCards cards={cards1}/>
                 <MyCards cards={cards2}/>
                 <Restart/>
             </div>

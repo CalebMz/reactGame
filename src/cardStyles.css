@@ -13,10 +13,7 @@ img{
     width: 100px;
 }
 
-.myCards{
+.GameCards{
     text-align: center;
-}
-
-#c1{
     visibility: hidden;
 }

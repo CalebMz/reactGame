@@ -7,11 +7,11 @@ export default class Landing extends Component{
     render(){
         return(<div>
             
-            <h1>Memory Memoir</h1>
-            <h3>Test your memory!</h3>
+            <h1>Bomb Sweeper</h1>
+            <h3>Find the winning card!</h3>
             <hr></hr>
             <br></br>
-            <img id="mainImage" src="https://cdn-icons-png.flaticon.com/512/2560/2560528.png" alt="memorypng" />
+            <img id="mainImage" src="https://www.seekpng.com/png/detail/175-1752613_explosion-clipart-cartoon-bomb-png.png" alt="memorypng" />
             <br></br>
             <br></br>
             <Start/>
