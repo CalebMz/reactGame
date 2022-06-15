@@ -1,19 +1,19 @@
-body{
-    width: 90%;
-    margin: 0 auto;
+body {
+  width: 90%;
+  margin: 0 auto;
 }
 
-#myTable{
-    margin-right: auto;
-    margin-left: auto;
+#myTable {
+  margin-right: auto;
+  margin-left: auto;
 }
 
-img{
-    height: 130px;
-    width: 100px;
+img {
+  height: 130px;
+  width: 100px;
 }
 
-.GameCards{
-    text-align: center;
-    visibility: hidden;
+.GameCards {
+  text-align: center;
+  visibility: hidden;
 }

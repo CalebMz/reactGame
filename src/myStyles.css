@@ -1,49 +1,66 @@
-body{
-    background-color: #ADD8E6;
+body {
+  background-color: #add8e6;
 }
 
-.App{
-    text-align: center;
+.App {
+  text-align: center;
 }
 
-h1, h3{
-    color:black;
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-hr{
-    border: 2px solid black;
+h1,
+h3 {
+  color: black;
 }
 
-#playButton{
-    background-color: blue;
-    font-size: 50px;
+hr {
+  border: 2px solid black;
 }
 
-#restartButton{
+#restartButton {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  background-color: #5EB1BF;
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#exitButton {
     font-size: 20px;
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-color: #F4E04D;
     border: 1px solid black;
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+#helpButton {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  background-color: rgb(72, 179, 214);
 }
 
-#helpButton{
+#playButton{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
+    background-color: rgba(219, 53, 53, 0.808);
+    
+}
+#mainImage {
+  width: 300px;
+  height: 300px;
 }
 
-#mainImage{
-    width: 300px;
-    height: 300px;
+#myContainer {
+  background-color: white;
 }
 
-#myContainer{
-    background-color: white;
+#tableHeading {
+  text-align: center;
+  padding-right: 100px;
 }
-
-#tableHeading{
-    text-align: center;
-    padding-right: 100px;
-}
-
