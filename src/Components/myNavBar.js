@@ -10,7 +10,6 @@ export default class MyNavBar extends Component {
       <div>
         <Navbar bg="dark">
           <Container>
-            
             <Nav.Link href="play">
               <Start />
             </Nav.Link>
